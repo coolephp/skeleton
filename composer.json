@@ -28,7 +28,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "guanguans/coole": "dev-main"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -90,5 +91,11 @@
         "fix-style": "Run style checks and fix violations.",
         "test": "Run all tests.",
         "test-coverage": "Run all tests with coverage."
+    },
+    "repositories": {
+        "coole": {
+            "type": "path",
+            "url": "./../coole"
+        }
     }
 }
