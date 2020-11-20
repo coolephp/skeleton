@@ -18,7 +18,7 @@ return [
     'timezone' => 'Asia/Shanghai',
 
     'providers' => [
-        \App\Provider\CommandServiceProvider::class,
+        \App\Provider\LoadCommandServiceProvider::class,
     ],
 
     'middleware' => [

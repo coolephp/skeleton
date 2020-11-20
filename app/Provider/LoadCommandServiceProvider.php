@@ -16,7 +16,7 @@ use Guanguans\Coole\App;
 use Guanguans\Di\Container;
 use Guanguans\Di\ServiceProviderInterface;
 
-class CommandServiceProvider implements ServiceProviderInterface, AfterRegisterAbleProviderInterface
+class LoadCommandServiceProvider implements ServiceProviderInterface, AfterRegisterAbleProviderInterface
 {
     use LoadCommandAble;
 
@@ -26,8 +26,8 @@ class CommandServiceProvider implements ServiceProviderInterface, AfterRegisterA
 
     public function afterRegister(App $app)
     {
-        foreach ($app['config']['console']['command'] as $command) {
+        collect($app['config']['console']['command'])->each(function ($command) {
             $this->loadCommand($command['dir'], $command['namespace'], $command['suffix'] ?? '*Command.php');
-        }
+        });
     }
 }
