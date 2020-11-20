@@ -9,10 +9,8 @@
  * This source file is subject to the MIT license that is bundled.
  */
 
-require __DIR__.'/vendor/autoload.php';
+! defined('BASE_PATH') && define('BASE_PATH', __DIR__);
 
-use Guanguans\Coole\App;
+require BASE_PATH.'/vendor/autoload.php';
 
-$app = App::getInstance()->make('console');
-
-$app->run();
+app('console')->run();

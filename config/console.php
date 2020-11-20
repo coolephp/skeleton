@@ -8,4 +8,12 @@
  * This source file is subject to the MIT license that is bundled.
  */
 
-return [];
+return [
+    'command' => [
+        [
+            'dir' => base_path('app/Command/'),
+            'namespace' => 'App\Command',
+            'suffix' => '*Command.php',
+        ],
+    ],
+];
