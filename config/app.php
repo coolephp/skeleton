@@ -20,8 +20,12 @@ return [
     'providers' => [
         \App\Provider\LoadCommandServiceProvider::class,
         \App\Provider\LoadRouteServiceProvider::class,
+        \App\Provider\MiddlewareServiceProvider::class,
     ],
 
+    /*
+     * 全局中间件
+     */
     'middleware' => [
     ],
 ];
