@@ -19,12 +19,9 @@ return [
 
     'providers' => [
         \App\Provider\LoadCommandServiceProvider::class,
+        \App\Provider\LoadRouteServiceProvider::class,
     ],
 
     'middleware' => [
-    ],
-
-    'route' => [
-        base_path('route/web.php'),
     ],
 ];
