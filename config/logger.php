@@ -15,6 +15,6 @@ return [
     'level' => Logger::DEBUG,
     'bubble' => true,
     'permission' => null,
-    'log_file' => null,
+    'log_file' => base_path('runtime/logs/app.log'),
     'use_locking' => false,
 ];

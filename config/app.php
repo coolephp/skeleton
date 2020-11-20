@@ -9,13 +9,13 @@
  */
 
 return [
-    'name' => 'coole',
+    'name' => env('APP_NAME', 'Coole'),
 
-    'env' => 'production',
+    'env' => env('APP_ENV', 'production'),
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', false),
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Shanghai',
 
     'providers' => [
     ],

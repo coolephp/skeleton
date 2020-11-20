@@ -9,19 +9,19 @@
  */
 
 return [
-    'default' => 'mysql',
+    'default' => env('DB_DEFAULT', 'mysql'),
     'connections' => [
         'mysql' => [
             'type' => 'mysql',
-            'hostname' => '127.0.0.1',
-            'hostport' => 3306,
-            'username' => 'root',
-            'password' => '',
-            'database' => '',
+            'hostname' => env('DB_HOSTNAME', '127.0.0.1'),
+            'hostport' => env('DB_HOSTPORT', 3306),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'coole'),
             'params' => [],
-            'charset' => 'utf8',
-            'prefix' => '',
-            'debug' => true,
+            'charset' => env('DB_CHARSET', 'utf8'),
+            'prefix' => env('DB_PREFIX', ''),
+            'debug' => env('DB_DEBUG', false),
         ],
     ],
 ];

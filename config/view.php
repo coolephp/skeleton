@@ -9,5 +9,14 @@
  */
 
 return [
-    'path' => BASE_PATH.'/view',
+    'path' => base_path('view'),
+    'options' => [
+        'debug' => false,
+        'charset' => 'UTF-8',
+        'strict_variables' => false,
+        'autoescape' => 'html',
+        'cache' => base_path('runtime/views'),
+        'auto_reload' => null,
+        'optimizations' => -1,
+    ],
 ];

@@ -14,4 +14,8 @@ use Guanguans\Coole\Controller\Controller;
 
 class IndexController extends Controller
 {
+    public function hello($hello)
+    {
+        return sprintf('Hello %s', $hello);
+    }
 }
