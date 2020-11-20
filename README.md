@@ -2,12 +2,12 @@
 
 > A PHP package template repository. - 一个 PHP 软件包模板存储库。
 
-![Tests](https://github.com/coole-php/skeleton/workflows/Tests/badge.svg)
-![Check & fix styling](https://github.com/coole-php/skeleton/workflows/Check%20&%20fix%20styling/badge.svg)
-[![codecov](https://codecov.io/gh/coole-php/skeleton/branch/main/graph/badge.svg?token=URGFAWS6S4)](https://codecov.io/gh/coole-php/skeleton)
-[![Latest Stable Version](https://poser.pugx.org/coole-php/skeleton/v)](//packagist.org/packages/coole-php/skeleton)
-[![Total Downloads](https://poser.pugx.org/coole-php/skeleton/downloads)](//packagist.org/packages/coole-php/skeleton)
-[![License](https://poser.pugx.org/coole-php/skeleton/license)](//packagist.org/packages/coole-php/skeleton)
+![Tests](https://github.com/coolephp/skeleton/workflows/Tests/badge.svg)
+![Check & fix styling](https://github.com/coolephp/skeleton/workflows/Check%20&%20fix%20styling/badge.svg)
+[![codecov](https://codecov.io/gh/coolephp/skeleton/branch/main/graph/badge.svg?token=URGFAWS6S4)](https://codecov.io/gh/coolephp/skeleton)
+[![Latest Stable Version](https://poser.pugx.org/coolephp/skeleton/v)](//packagist.org/packages/coolephp/skeleton)
+[![Total Downloads](https://poser.pugx.org/coolephp/skeleton/downloads)](//packagist.org/packages/coolephp/skeleton)
+[![License](https://poser.pugx.org/coolephp/skeleton/license)](//packagist.org/packages/coolephp/skeleton)
 
 ## Requirement
 
@@ -16,12 +16,12 @@
 ## Installation
 
 ``` bash
-$ composer require coole-php/skeleton -vvv
+$ composer require coolephp/skeleton -vvv
 ```
 
 ## Usage
 
-1. replace `coole-php/skeleton` -> `vendorName/package-name`
+1. replace `coolephp/skeleton` -> `vendorName/package-name`
 2. replace `Coole\\CooleSkeleton` -> `VendorName\\PackageName`
 3. replace `Coole\CooleSkeleton` -> `VendorName\PackageName`
 4. replace `ityaozm@gmail.com` -> `your email`

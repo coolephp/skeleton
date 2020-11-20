@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the coole-php/skeleton.
+ * This file is part of the coolephp/skeleton.
  *
  * (c) guanguans <ityaozm@gmail.com>
  *

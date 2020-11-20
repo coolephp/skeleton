@@ -1,5 +1,5 @@
 {
-    "name": "coole-php/skeleton",
+    "name": "coolephp/skeleton",
     "description": "The Coole framework skeleton.",
     "keywords": [
         "package",
@@ -10,10 +10,10 @@
         "coole",
         "middleware"
     ],
-    "homepage": "https://github.com/coole-php/skeleton",
+    "homepage": "https://github.com/coolephp/skeleton",
     "support": {
-        "issues": "https://github.com/coole-php/skeleton/issues",
-        "source": "https://github.com/coole-php/skeleton"
+        "issues": "https://github.com/coolephp/skeleton/issues",
+        "source": "https://github.com/coolephp/skeleton"
     },
     "authors": [
         {
