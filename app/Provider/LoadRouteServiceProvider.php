@@ -11,15 +11,12 @@
 namespace App\Provider;
 
 use Guanguans\Coole\Able\AfterRegisterAbleProviderInterface;
-use Guanguans\Coole\Able\LoadCommandAble;
 use Guanguans\Coole\App;
 use Guanguans\Di\Container;
 use Guanguans\Di\ServiceProviderInterface;
 
 class LoadRouteServiceProvider implements ServiceProviderInterface, AfterRegisterAbleProviderInterface
 {
-    use LoadCommandAble;
-
     public function register(Container $container)
     {
     }
