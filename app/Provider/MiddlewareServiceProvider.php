@@ -17,7 +17,7 @@ use Guanguans\Di\ServiceProviderInterface;
 
 class MiddlewareServiceProvider implements ServiceProviderInterface, AfterRegisterAbleProviderInterface
 {
-    public function register(Container $container)
+    public function register(Container $app)
     {
     }
 

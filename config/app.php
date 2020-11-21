@@ -27,5 +27,6 @@ return [
      * 全局中间件
      */
     'middleware' => [
+        // \App\Middleware\ExampleMiddleware::class
     ],
 ];

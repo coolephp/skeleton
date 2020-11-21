@@ -20,7 +20,7 @@ class LoadCommandServiceProvider implements ServiceProviderInterface, AfterRegis
 {
     use LoadCommandAble;
 
-    public function register(Container $container)
+    public function register(Container $app)
     {
     }
 
