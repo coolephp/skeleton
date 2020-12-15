@@ -1,6 +1,6 @@
-# package-skeleton
+<p align="center"><img src="./docs/logo.png" width="38%" alt="Coole"></p>
 
-> A PHP package template repository. - 一个 PHP 软件包模板存储库。
+> This is a skeleton application using the [Coole](https://github.com/guanguans/coole) framework.
 
 ![Tests](https://github.com/coolephp/skeleton/workflows/Tests/badge.svg)
 ![Check & fix styling](https://github.com/coolephp/skeleton/workflows/Check%20&%20fix%20styling/badge.svg)
@@ -16,16 +16,55 @@
 ## Installation
 
 ``` bash
-$ composer require coolephp/skeleton -vvv
+$ composer create-project coolephp/skeleton -vvv
 ```
 
-## Usage
+## Quick start service
 
-1. replace `coolephp/skeleton` -> `vendorName/package-name`
-2. replace `Coole\\CooleSkeleton` -> `VendorName\\PackageName`
-3. replace `Coole\CooleSkeleton` -> `VendorName\PackageName`
-4. replace `ityaozm@gmail.com` -> `your email`
-5. execute `$ composer dumpautoload`
+``` php
+$ php coole serve
+```
+
+## Documentation
+
+[www.guanguans.cn/coole](https://www.guanguans.cn/coole/)
+
+## Directory Structure
+
+```plain
+├── app
+│   ├── Command
+│   │   └── ServeCommand.php
+│   ├── Controller
+│   │   └── IndexController.php
+│   ├── Event
+│   ├── Listener
+│   ├── Middleware
+│   ├── Model
+│   │   └── Model.php
+│   └── Provider
+│       ├── LoadCommandServiceProvider.php
+│       ├── LoadRouteServiceProvider.php
+│       └── MiddlewareServiceProvider.php
+├── config
+│   ├── app.php
+│   ├── console.php
+│   ├── database.php
+│   ├── event.php
+│   ├── logger.php
+│   ├── route.php
+│   └── view.php
+├── coole
+├── public
+│   ├── index.php
+│   └── static
+├── route
+│   └── web.php
+├── runtime
+├── tests
+├── vendor
+└── view
+```
 
 ## Testing
 
