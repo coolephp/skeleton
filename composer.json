@@ -1,6 +1,6 @@
 {
     "name": "coolephp/skeleton",
-    "description": "The Coole framework skeleton.",
+    "description": "This is an official framework application template for Coole. - 这是一个官方提供的 Coole 框架应用模板。",
     "keywords": [
         "package",
         "template",

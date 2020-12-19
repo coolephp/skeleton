@@ -1,6 +1,6 @@
 <p align="center"><img src="./public/logo.png" width="38%" alt="Coole"></p>
 
-> This is a skeleton application using the [Coole](https://github.com/guanguans/coole) framework.
+> This is an official framework application template for [Coole](https://github.com/guanguans/coole). - 这是一个官方提供的 [Coole](https://github.com/guanguans/coole) 框架应用模板。
 
 ![Tests](https://github.com/coolephp/skeleton/workflows/Tests/badge.svg)
 ![Check & fix styling](https://github.com/coolephp/skeleton/workflows/Check%20&%20fix%20styling/badge.svg)
