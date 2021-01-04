@@ -16,6 +16,6 @@ use Guanguans\Coole\App;
 
 require BASE_PATH.'/vendor/autoload.php';
 
-$app = new App();
+$app = new App(require base_path('config/app.php'));
 
 $app->run();

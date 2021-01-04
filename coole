@@ -11,8 +11,12 @@ declare(strict_types=1);
  * This source file is subject to the MIT license that is bundled.
  */
 
+use Guanguans\Coole\App;
+
 ! defined('BASE_PATH') && define('BASE_PATH', __DIR__);
 
 require BASE_PATH.'/vendor/autoload.php';
 
-app('console')->run();
+$app = new App(require base_path('config/app.php'));
+
+$app->make('console')->run();
