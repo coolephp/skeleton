@@ -19,6 +19,6 @@ class ServeCommand extends \Guanguans\Coole\Console\Commands\ServeCommand
     protected $options = [
         ['host', null, InputOption::VALUE_OPTIONAL, 'The host address to serve the application on', '127.0.0.1'],
         ['port', null, InputOption::VALUE_OPTIONAL, 'The port to serve the application on', 8000],
-        ['docroot', null, InputOption::VALUE_REQUIRED, 'The docroot to serve the application on', './public/'],
+        ['docroot', null, InputOption::VALUE_REQUIRED, 'The docroot to serve the application on', BASE_PATH.'/public'],
     ];
 }
