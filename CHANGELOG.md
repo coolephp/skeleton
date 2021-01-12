@@ -11,3 +11,9 @@ All notable changes to `coolephp/skeleton` will be documented in this file
 * Bump `guanguans/coole` to v1.0.2.
 * Add `route/api.php` file.
 * Remove `app/Provider` files.
+
+## 1.0.2 - 2021-01-12
+
+* Optimize serve command.
+* Update config files.
+* Add some web server configuration files.
