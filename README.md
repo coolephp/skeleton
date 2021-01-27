@@ -1,4 +1,4 @@
-<p align="center"><img src="./public/logo.png" width="38%" alt="Coole"></p>
+<p align="center"><img src="https://github.com/guanguans/coole/blob/main/docs/static/logo.png" width="38%" alt="Coole"></p>
 
 > This is an official framework application template for [Coole](https://github.com/guanguans/coole). - 这是一个官方提供的 [Coole](https://github.com/guanguans/coole) 框架应用模板。
 
