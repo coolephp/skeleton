@@ -36,7 +36,7 @@ return [
         'cache' => base_path('runtime/views'),
 
         // 如果模板更改，是否重新加载模板
-        'auto_reload' => null,
+        'auto_reload' => env('APP_DEBUG', null),
 
         // 优化
         'optimizations' => -1,
