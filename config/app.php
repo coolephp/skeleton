@@ -14,17 +14,17 @@ return [
     /*
      * App 名称
      */
-    'name' => env('APP_NAME', 'Coole'),
+    'name' => cenv('APP_NAME', 'Coole'),
 
     /*
      * 环境
      */
-    'env' => env('APP_ENV', 'production'),
+    'env' => cenv('APP_ENV', 'production'),
 
     /*
      * Debug
      */
-    'debug' => env('APP_DEBUG', false),
+    'debug' => cenv('APP_DEBUG', false),
 
     /*
      * 时区

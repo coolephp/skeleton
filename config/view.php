@@ -33,10 +33,10 @@ return [
         'autoescape' => 'html',
 
         // 缓存目录
-        'cache' => base_path('runtime/views'),
+        'cache' => cenv('VIEW_CACHE_DIRECTORY', base_path('runtime/views')),
 
         // 如果模板更改，是否重新加载模板
-        'auto_reload' => env('APP_DEBUG', null),
+        'auto_reload' => cenv('APP_DEBUG', null),
 
         // 优化
         'optimizations' => -1,
