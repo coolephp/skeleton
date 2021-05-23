@@ -17,3 +17,10 @@ All notable changes to `coolephp/skeleton` will be documented in this file
 * Optimize serve command.
 * Update config files.
 * Add some web server configuration files.
+
+## 1.1.0 - 2021-05-23
+
+* Bump coole to v1.1.0.
+* Add welcome page.
+* Update config files.
+* Remove `app/Model/Model.php`.
