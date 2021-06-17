@@ -17,6 +17,7 @@ use Guanguans\Coole\Facade\Router;
 Router::get('/', function () {
     $links = [
         ['name' => 'documentation', 'href' => 'https://www.guanguans.cn/coole'],
+        ['name' => 'api', 'href' => 'https://www.guanguans.cn/coole/api'],
         ['name' => 'github', 'href' => 'https://github.com/guanguans/coole'],
         ['name' => 'coole-skeleton', 'href' => 'https://github.com/coolephp/skeleton'],
         ['name' => 'organization', 'href' => 'https://github.com/coolephp'],
