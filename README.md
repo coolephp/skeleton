@@ -2,8 +2,8 @@
 
 > This is an official framework application template for [Coole](https://github.com/guanguans/coole). - 这是一个官方提供的 [Coole](https://github.com/guanguans/coole) 框架应用模板。
 
-![Tests](https://github.com/coolephp/skeleton/workflows/Tests/badge.svg)
-![Check & fix styling](https://github.com/coolephp/skeleton/workflows/Check%20&%20fix%20styling/badge.svg)
+[![tests](https://github.com/coolephp/skeleton/actions/workflows/tests.yml/badge.svg)](https://github.com/coolephp/skeleton/actions/workflows/tests.yml)
+[![check & fix styling](https://github.com/coolephp/skeleton/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/coolephp/skeleton/actions/workflows/php-cs-fixer.yml)
 [![Latest Stable Version](https://poser.pugx.org/coolephp/skeleton/v)](//packagist.org/packages/coolephp/skeleton)
 [![Total Downloads](https://poser.pugx.org/coolephp/skeleton/downloads)](//packagist.org/packages/coolephp/skeleton)
 [![License](https://poser.pugx.org/coolephp/skeleton/license)](//packagist.org/packages/coolephp/skeleton)
