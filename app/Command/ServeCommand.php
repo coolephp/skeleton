@@ -14,7 +14,7 @@ namespace App\Command;
 
 use Symfony\Component\Console\Input\InputOption;
 
-class ServeCommand extends \Guanguans\Coole\Console\Commands\ServeCommand
+class ServeCommand extends \Coole\Console\Commands\ServeCommand
 {
     protected $options = [
         ['host', null, InputOption::VALUE_OPTIONAL, 'The host address to serve the application on', '127.0.0.1'],

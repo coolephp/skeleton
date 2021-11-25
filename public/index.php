@@ -10,7 +10,7 @@ declare(strict_types=1);
  * This source file is subject to the MIT license that is bundled.
  */
 
-use Guanguans\Coole\App;
+use Coole\Foundation\App;
 
 ! defined('BASE_PATH') && define('BASE_PATH', dirname(__DIR__));
 

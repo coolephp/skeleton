@@ -10,8 +10,8 @@ declare(strict_types=1);
  * This source file is subject to the MIT license that is bundled.
  */
 
-use Guanguans\Coole\Facade\App;
-use Guanguans\Coole\Facade\Router;
+use Coole\Foundation\App;
+use Coole\Routing\Facade\Router;
 
 Router::prefix('api/v1')->group(function () {
     // uri: /api/v1/index
