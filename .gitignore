@@ -12,3 +12,4 @@ tests.php
 .DS_Store
 .history/
 .env
+.php-cs-fixer.cache
