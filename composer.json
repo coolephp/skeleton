@@ -62,20 +62,14 @@
         "hooks": {
             "pre-commit": [
                 "composer test",
-                "composer check-style"
+                "composer style-lint"
             ],
             "pre-push": [
                 "composer test",
-                "composer check-style"
+                "composer style-lint"
             ]
         }
     },
-    "funding": [
-        {
-            "type": "wechat",
-            "url": "https://www.guanguans.cn/images/wechat.jpeg"
-        }
-    ],
     "scripts": {
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
@@ -89,16 +83,10 @@
             "cghooks update"
         ],
         "cghooks": "./vendor/bin/cghooks",
-        "check-style": "php-cs-fixer fix --using-cache=no --diff --config=.php_cs.dist --dry-run --ansi",
-        "fix-style": "php-cs-fixer fix --using-cache=no --config=.php_cs.dist --ansi",
+        "style-lint": "php-cs-fixer fix --using-cache=no --diff --config=.php-cs-fixer.php --dry-run --ansi",
+        "style-fix": "php-cs-fixer fix --using-cache=no --config=.php-cs-fixer.php --ansi",
         "psalm": "./vendor/bin/psalm",
         "test": "./vendor/bin/phpunit --coverage-text --colors=always --verbose",
         "test-coverage": "./vendor/bin/phpunit --coverage-html=coverage/ --coverage-clover=clover.xml --color=always --verbose"
-    },
-    "scripts-descriptions": {
-        "check-style": "Run style checks (only dry run - no fixing!).",
-        "fix-style": "Run style checks and fix violations.",
-        "test": "Run all tests.",
-        "test-coverage": "Run all tests with coverage."
     }
 }

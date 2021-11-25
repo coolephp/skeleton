@@ -12,6 +12,7 @@ $finder = Symfony\Component\Finder\Finder::create()
     ->in([
         __DIR__ . '/app',
         __DIR__ . '/config',
+        __DIR__ . '/database',
         __DIR__ . '/public',
         __DIR__ . '/route',
         __DIR__ . '/tests',
@@ -21,7 +22,7 @@ $finder = Symfony\Component\Finder\Finder::create()
     ->ignoreDotFiles(true)
     ->ignoreVCS(true);
 
-return PhpCsFixer\Config::create()
+return (new PhpCsFixer\Config())
     ->setRules([
         '@Symfony' => true,
         'header_comment' => ['header' => $header],
