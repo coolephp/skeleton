@@ -2,6 +2,10 @@
 
 All notable changes to `coolephp/skeleton` will be documented in this file
 
+## 1.1.2 - 2021-11-25
+
+* Add global function helper file.
+
 ## 1.1.1 - 2021-11-25
 
 * Update config file for logger.
