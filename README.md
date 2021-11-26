@@ -14,7 +14,7 @@
 
 ## Requirement
 
-* PHP >= 7.2
+* PHP >= 7.3
 
 ## Installation
 
@@ -25,7 +25,7 @@ $ composer create-project coolephp/skeleton -vvv
 ## Quick start service
 
 ``` php
-$ php coole serve
+$ php bin/coole serve
 ```
 
 ## Testing
