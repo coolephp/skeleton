@@ -17,10 +17,10 @@ return [
     'command' => [
         [
             // 命令文件所在目录
-            'dir' => base_path('app/Command/'),
+            'dir' => base_path('app/Commands/'),
 
             // 命令文件命名空间
-            'namespace' => 'App\Command',
+            'namespace' => 'App\Commands',
 
             // 命令文件后缀
             'suffix' => '*Command.php',

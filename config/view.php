@@ -14,7 +14,7 @@ return [
     /*
      * 视图文件目录
      */
-    'path' => base_path('view'),
+    'path' => base_path('resource/view'),
 
     /*
      * 选项
@@ -33,7 +33,7 @@ return [
         'autoescape' => 'html',
 
         // 缓存目录
-        'cache' => cenv('VIEW_CACHE_DIRECTORY', base_path('runtime/views')),
+        'cache' => cenv('VIEW_CACHE_DIRECTORY', base_path('var/views')),
 
         // 如果模板更改，是否重新加载模板
         'auto_reload' => cenv('APP_DEBUG', null),

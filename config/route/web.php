@@ -13,11 +13,11 @@ declare(strict_types=1);
 use Coole\Foundation\App;
 use Coole\Routing\Facade\Router;
 
-// uri: /
+// routing: /
 Router::get('/', function () {
     $links = [
         ['name' => 'documentation', 'href' => 'https://www.guanguans.cn/coole'],
-        ['name' => 'api', 'href' => 'https://www.guanguans.cn/coole/api'],
+        ['name' => 'api', 'href' => 'https://www.guanguans.cn/coole/api/main'],
         ['name' => 'github', 'href' => 'https://github.com/guanguans/coole'],
         ['name' => 'coole-skeleton', 'href' => 'https://github.com/coolephp/skeleton'],
         ['name' => 'organization', 'href' => 'https://github.com/coolephp'],
@@ -26,5 +26,5 @@ Router::get('/', function () {
     return App::render('welcome.twig', ['links' => $links]);
 });
 
-// uri: /hello OR /hello/*
-Router::get('/hello/{keyword?}', [\App\Controller\IndexController::class, 'hello'])->addDefaults(['keyword' => 'Coole']);
+// routing: /hello OR /hello/*
+Router::get('/hello/{keyword?}', [\App\Controllers\IndexController::class, 'hello'])->addDefaults(['keyword' => 'Coole']);

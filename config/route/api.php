@@ -14,7 +14,7 @@ use Coole\Foundation\App;
 use Coole\Routing\Facade\Router;
 
 Router::prefix('api/v1')->group(function () {
-    // uri: /api/v1/index
+    // routing: /api/v1/index
     Router::get('index', function () {
         return App::json([
             'name' => 'coolephp/skeleton',

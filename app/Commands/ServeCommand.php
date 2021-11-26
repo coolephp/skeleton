@@ -10,11 +10,12 @@ declare(strict_types=1);
  * This source file is subject to the MIT license that is bundled.
  */
 
-namespace App\Command;
+namespace App\Commands;
 
+use Coole\Console\Commands\ServeCommand as CooleServeCommand;
 use Symfony\Component\Console\Input\InputOption;
 
-class ServeCommand extends \Coole\Console\Commands\ServeCommand
+class ServeCommand extends CooleServeCommand
 {
     protected $options = [
         ['host', null, InputOption::VALUE_OPTIONAL, 'The host address to serve the application on', '127.0.0.1'],

@@ -40,13 +40,10 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Config\\Database\\Factories\\": "config/database/factories/",
+            "Config\\Database\\Seeders\\": "config/database/seeders/"
         },
-        "classmap": [
-            "database/factories",
-            "database/migrations",
-            "database/seeds"
-        ],
         "files": [
             "app/Support/helpers.php"
         ]

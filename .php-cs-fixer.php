@@ -12,9 +12,8 @@ $finder = Symfony\Component\Finder\Finder::create()
     ->in([
         __DIR__ . '/app',
         __DIR__ . '/config',
-        __DIR__ . '/database',
         __DIR__ . '/public',
-        __DIR__ . '/route',
+        __DIR__ . '/resource',
         __DIR__ . '/tests',
     ])
     ->name('*.php')
