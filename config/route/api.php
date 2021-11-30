@@ -11,7 +11,7 @@ declare(strict_types=1);
  */
 
 use Coole\Foundation\App;
-use Coole\Routing\Facade\Router;
+use Coole\Routing\Facades\Router;
 
 Router::prefix('api/v1')->group(function () {
     // routing: /api/v1/index

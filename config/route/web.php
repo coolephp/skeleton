@@ -11,7 +11,7 @@ declare(strict_types=1);
  */
 
 use Coole\Foundation\App;
-use Coole\Routing\Facade\Router;
+use Coole\Routing\Facades\Router;
 
 // routing: /
 Router::get('/', function () {
