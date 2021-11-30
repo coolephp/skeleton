@@ -18,6 +18,6 @@ class IndexController extends Controller
 {
     public function hello($keyword)
     {
-        return sprintf('Hello %s', $keyword);
+        return sprintf('Hello %s', ucfirst($keyword));
     }
 }
