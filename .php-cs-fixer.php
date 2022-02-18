@@ -13,7 +13,7 @@ $finder = Symfony\Component\Finder\Finder::create()
         __DIR__ . '/app',
         __DIR__ . '/config',
         __DIR__ . '/public',
-        __DIR__ . '/resource',
+        __DIR__ . '/resources',
         __DIR__ . '/tests',
     ])
     ->name('*.php')

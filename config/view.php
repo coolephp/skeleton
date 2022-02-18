@@ -14,7 +14,7 @@ return [
     /*
      * 视图文件目录
      */
-    'path' => base_path('resource/view'),
+    'path' => base_path('resources/view'),
 
     /*
      * 选项
